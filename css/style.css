@@ -10,7 +10,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-	font-weight:400;
+	font-weight:400;	
 }
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
@@ -735,6 +735,28 @@ a.hi-icon.icon3 {
     padding: 30px 20px;
     width: 32.333%;
 }
+
+.l-abt-grid1 h4 {
+    color: #86c724;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 30px 0 12px;
+    font-weight: 600;
+}
+.l-abt-grid1 p {
+    font-size: 14px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+.l-abt-grid1 {
+    border: 1px solid none;
+    margin: 0 0.5%;
+    padding: 30px 20px;
+    width: 32.333%;
+}
+
 /*-- //about--*/
 .layouts-clients h3 {
     text-align: center;
@@ -789,6 +811,15 @@ a.hi-icon.icon3 {
     text-align: center;
 	font-weight: 600;
 }
+.stats h5 {
+    color: #86c724;
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    padding: 0 50px;
+    text-align: center;
+	font-weight: 600;
+}
 .stats-grid {
 	font-size: 60px;
 	font-weight: 400;
@@ -796,6 +827,9 @@ a.hi-icon.icon3 {
 	margin-bottom: 10px;
 }
 h4.stats-info {
+	margin-top: 20px;
+}
+h5.stats-info {
 	margin-top: 20px;
 }
 /*-- //Stats Section --*/
@@ -1831,9 +1865,21 @@ p.para {
     width: 32.333%;
     float: left;
 }
+
+.l-abt-grid1 {
+    padding: 30px 11px;
+    width: 32.333%;
+    float: left;
+}
+
 .l-abt-grid h4 {
     font-size: 22px;
 }
+
+.l-abt-grid1 h4 {
+    font-size: 22px;
+}
+
 .layouts-clients {
     padding: 60px 0;
 }
@@ -2025,6 +2071,11 @@ h4.stats-info {
 .l-abt-grid h4 {
     font-size: 20px;
 }
+
+.l-abt-grid1 h4 {
+    font-size: 20px;
+}
+
 .ls_head {
     font-size: 36px;
 }
@@ -2065,6 +2116,11 @@ h4.stats-info {
 .l-abt-grid h4 {
     font-size: 18px;
 }
+
+.l-abt-grid1 h4 {
+    font-size: 18px;
+}
+
 .logo a {
     font-size: 34px;
 }
@@ -2087,6 +2143,16 @@ h4.stats-info {
 .l-abt-grid h4 {
     font-size: 22px;
 }
+
+.l-abt-grid1 {
+    padding: 30px 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.l-abt-grid1 h4 {
+    font-size: 22px;
+}
+
 .layouts-clients p {
     font-size: 14px;
     width: 100%;
@@ -2321,6 +2387,14 @@ h4.stats-info {
 .l-abt-grid h4 {
     font-size: 20px;
 }
+
+.l-abt-grid1 {
+    padding: 20px 10px;
+}
+.l-abt-grid1 h4 {
+    font-size: 20px;
+}
+
 .footer-top h3 {
     margin-bottom: 12px;
 }
