@@ -887,7 +887,7 @@ h5.stats-info {
     padding-bottom: .5em;
 }
 .agileinfo-work p {
-	color: #999;
+    color: black;
     font-size: 15px;
     line-height: 28px;
     margin: 0;
@@ -2160,6 +2160,8 @@ h4.stats-info {
     float: left;
     width: 100%;
     margin-bottom: 20px;
+    font-size: 53px;
+    color: white;
 }
 .rides-grid img{
     width: 100%;
