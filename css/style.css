@@ -755,6 +755,8 @@ a.hi-icon.icon3 {
     margin: 0 0.5%;
     padding: 30px 20px;
     width: 32.333%;
+	font-size: 53px;
+    color: white;
 }
 
 /*-- //about--*/
@@ -1869,6 +1871,8 @@ p.para {
     padding: 30px 11px;
     width: 32.333%;
     float: left;
+	font-size: 53px;
+    color: white;
 }
 
 .l-abt-grid h4 {
