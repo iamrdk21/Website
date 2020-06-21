@@ -1596,8 +1596,10 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     padding: 0;
 }
 .agile-img img{
-   width: 100%;
+   width: 70%;
 }
+.agile-img img{
+   width: 100%;
 .agile-prod {
     padding: 5em 0;
 }
@@ -1607,6 +1609,10 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 .agile-sub {
     background: #212121;
     padding: 78px;
+}
+.agile-sub1 {
+    background: #212121;
+    padding: 135px;
 }
 .agile-sub ul {
     margin: 1em 0 0 0;
