@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Products | Phoenix Solar Systems Pvt. Ltd.</title>    
+<title>Products | Phoenix Solar Systems Pvt. Ltd.</title> 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="manifest" href="/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
@@ -21,7 +22,24 @@
 <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <!--//fonts-->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <!-- Required-js -->
+
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+						
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+</script>	
+<!-- //main slider-banner --> 
+
 <!-- scriptfor smooth drop down-nav -->
 <script>
 $(document).ready(function(){
@@ -48,9 +66,9 @@ $(document).ready(function(){
 					<h3><a href="index.html"><span>PHOENIX</span> SOLAR SYSTEMS</a></h3>
 				</div>
 				<div class="ls-social-icons">
-					<a class="facebook" href="https://www.facebook.com/PhoenixSolarSystems/"><i class="fa fa-facebook"></i></a>
-					<a class="twitter" href="https://twitter.com/PhoenixPvt"><i class="fa fa-twitter"></i></a>
-					<a class="linkedin" href="https://www.linkedin.com/company/phoenix-solar-systems-pvt--ltd-"><i class="fa fa-linkedin"></i></a>
+					<a class="facebook" href="https://www.facebook.com/PhoenixSolarSystems/" target="_blank"><i class="fab fa-facebook" style='font-size:24px'></i></a>
+					<a class="twitter" href="https://twitter.com/PhoenixPvt" target="_blank"><i class="fab fa-twitter" style='font-size:24px'></i></a>
+					<a class="linkedin" href="https://www.linkedin.com/company/phoenix-solar-systems-pvt--ltd-" target="_blank"><i class="fab fa-linkedin" style='font-size:24px'></i></a>
 				</div>
 				<div class="agileits-contact-info text-right">
 					<ul>
@@ -78,16 +96,16 @@ $(document).ready(function(){
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
+					<li><a class="active" href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
+					<li><a href="services.html">Installations</a></li>
 					<li class="dropdown">
-					<a class="active" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 					  <li><a href="SolarProducts1.html">Solar Products</a></li>
-						<li><a href="WaterTreatment.html">Water Treatment Solutions</a></li>
+						<li><a href="WaterHeaterSolution.html">Water Treatment Solutions</a></li>
 							<li><a href="GasWaterHeater.html">Gas Water Heater</a></li>
-								<li><a href="ElectricWater.html">Electric Water Heating</a></li>						
+								<li><a href="ElectricWaterHeater.html">Electric Water Heating</a></li>						
 					  </ul>
 					  </li>
 					<li><a href="contact.html">Contact</a></li>
@@ -101,7 +119,7 @@ $(document).ready(function(){
 	<!-- banner -->
 	<!-- //banner -->
 	<!-- products -->
-	<div class="agile-prod">
+	<!--<div class="agile-prod">
 	<div class="container">
 		<h2 class="ls_head">Prod<span>ucts</span></h2>
 		<div class="agile-prod1">
@@ -161,6 +179,26 @@ $(document).ready(function(){
 			<div class="clearfix"> </div>
 		</div>
 		
+	</div>
+</div>-->
+<div class="agile-prod">
+	<div class="container">
+		<h1 class="ls_head"><a href="SolarProducts1.html">So<span>lar</span> Prod<span>ucts</span></a></h1>
+		<div class="agile-prod1">
+			<img src="images/homesolar.jpg" alt="Solar" style="width:100%">
+		</div>
+		<h1 class="ls_head"><a href="WaterHeaterSolution.html">Wa<span>ter</span> Trea<span>tment</span> Solu<span>tions</span></a></h1>
+		<div class="agile-prod1">
+			<img src="images/watertreatment.jpg" alt="Water Treatment" style="width:100%">
+		</div>
+		<h1 class="ls_head"><a href="GasWaterHeater.html">G<span>as</span> Wa<span>ter</span> Hea<span>ters</a></span></h1>
+		<div class="agile-prod1">
+			<img src="images/geyser.jpg" alt="Gas Water Heater" style="width:100%">
+		</div>
+		<h1 class="ls_head"><a href="ElectricWaterHeater.html">Electric <span>Water</span> Heaters</h1>
+		<div class="agile-prod1">
+			<img src="images/aosmith.jpg" alt="Electric Water Heater" style="width:100%">
+		</div>
 	</div>
 </div>
 <!-- //products -->
